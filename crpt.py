@@ -12,7 +12,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 COIN_MARKET_CAP_URL = 'https://coinmarketcap.com/'
 OUTPUT_FILENAME = 'crypto_prices_log.csv'
-MAX_COINS = 10 
+MAX_COINS = 30
 
 def get_driver(headless=True):
     print("Initializing Chrome Driver...")
